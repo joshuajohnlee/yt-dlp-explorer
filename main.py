@@ -1,6 +1,10 @@
-from pathlib import Path
-from check_version import check_ver 
+from tkinter import *
+from tkinter import ttk
 
-# Check yt-dlp is found
-yt_exec = Path(".\\bin\\yt-dlp.exe")
-check_ver(yt_exec)
+root_window = Tk()
+root_window.title("YT-DLP Explorer")
+
+my_label = Label(root_window, text="Hello World!")
+my_label.pack()
+
+root_window.mainloop()
